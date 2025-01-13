@@ -50,6 +50,18 @@ export const examples: Registry = [
     files: ["example/scroll-progress-demo.tsx"],
   },
   {
+    name: "lens-demo",
+    type: "registry:example",
+    registryDependencies: ["lens"],
+    files: ["example/lens-demo.tsx"],
+  },
+  {
+    name: "lens-demo-2",
+    type: "registry:example",
+    registryDependencies: ["lens"],
+    files: ["example/lens-demo-2.tsx"],
+  },
+  {
     name: "neon-gradient-card-demo",
     type: "registry:example",
     files: ["example/neon-gradient-card-demo.tsx"],

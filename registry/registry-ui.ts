@@ -37,6 +37,12 @@ export const ui: Registry = [
     files: ["magicui/scroll-progress.tsx"],
   },
   {
+    name: "lens",
+    type: "registry:ui",
+    dependencies: ["motion"],
+    files: ["magicui/lens.tsx"],
+  },
+  {
     name: "neon-gradient-card",
     type: "registry:ui",
     files: ["magicui/neon-gradient-card.tsx"],
